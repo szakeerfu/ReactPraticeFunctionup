@@ -1,0 +1,21 @@
+.card {
+    padding: 18px;
+    background-color:  #f1f6fa;
+    min-height: 200px;
+    min-width: 208px;
+    border-radius: 12px;
+    margin-right: 2rem;
+}
+.card img{
+    border-radius: 50%;
+
+}
+h3{
+    font-size: 2rem;
+   font-family: cursive;
+}
+h4{
+    font-size: 11px;
+     
+
+}

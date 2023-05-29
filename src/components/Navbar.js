@@ -10,17 +10,27 @@ const Navbar = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
+                color:'white'
             }}
         >
-            <span className="logo">REDUX STORE</span>
+            <span className="logo"><span className='nethed'>NETflix </span> </span>
+            <input
+            placeholder='search movie'
+            
+             style={{backgroundColor:"white" ,  width:"50vw", padding:"12px",
+              border:"none",
+              fontSize:"20px",
+              borderRadius:"22px"
+              
+              }}/>
             <div>
                 <Link className="navLink" to="/">
                     Home
                 </Link>
                 <Link className="navLink" to="/cart">
-                    Cart
+                     Favorite Movie
                 </Link>
-                <span className="cartCount">Cart items: {items.length}</span>
+                <span className="cartCount">Cart items:{items.length}</span>
             </div>
         </div>
     );

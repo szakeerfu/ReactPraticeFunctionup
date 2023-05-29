@@ -40,9 +40,9 @@ export default productSlice.reducer;
 
 // Thunks
 export const fetchProducts = createAsyncThunk('products/fetch', async () => {
-    const res = await fetch('https://fakestoreapi.com/products');
+    const res = await fetch('https://www.omdbapi.com/?s=Avengers&apikey=e0c1a7c5');
     const data = await res.json();
-    return data;
+    return data.Search;
 });
 
 // export function fetchProducts() {

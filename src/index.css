@@ -6,13 +6,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 20px;
-    background: whitesmoke;
+    color: white;
+    background: rgb(0, 0, 0);
 }
 img {
-    height: 80px;
+    width: 40vh;
 }
 .card {
-    background: white;
+    background:   #4f3b3b;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -56,8 +57,19 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: #7b6565;
     margin-bottom: 20px;
     padding: 14px;
     border-radius: 5px;
+    font-size: 28px;
+}
+.nethed{
+    color: red;
+    font-size: 3rem;
+    font-family: fantasy;
+}
+.navLink,.cartCount{
+    color: white;
+    font-size:  22px;
+
 }

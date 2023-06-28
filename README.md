@@ -5,7 +5,7 @@ A complete React js movie application.
 
 ---
 
-### Made with ❤️ by [Dulanjali Senarathna](https://www.linkedin.com/in/dulanjali-senarathna/)
+ 
 
 ---
 
@@ -62,7 +62,7 @@ The project is for the people who wanna get more skilled in `ReactJs`.
 
 ## Feedback
 
-If you have any feedback, please reach out to us at [Dulanjali Senarathna](https://www.behance.net/dulanjasenarathna)
+ 
 
 Happy Coding! 🚀
 

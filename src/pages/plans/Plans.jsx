@@ -10,7 +10,7 @@ const Plans = () => {
 		<>
 			<Header title="Membership Plans" image={HeaderImage}>
 				Et eu reprehenderit esse minim.Et eu reprehenderit esse minim. Et eu
-				reprehenderit esse minim.
+				reprehenderit esse mini.
 			</Header>
 			<section className="plans">
 				<div className="container plans__container">

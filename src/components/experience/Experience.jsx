@@ -27,10 +27,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>React , Redux-toolkit</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Next Js</h4>
-            </article>
+ 
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>SASS/SCSS</h4>
@@ -39,10 +36,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Tailwind</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Typescript</h4>
-            </article>
+            
           </div>
         </div>
       </div>

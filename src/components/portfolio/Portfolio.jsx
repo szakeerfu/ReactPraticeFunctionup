@@ -1,11 +1,11 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Educational Website.jpg";
-import IMG2 from "../../assets/RubyCode Blog Project.jpg";
-import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/Covid-19 Project.jpg";
-import IMG5 from "../../assets/Jokes Project.jpg";
-import IMG6 from "../../assets/Project4.jpg";
+import IMG1 from "../../assets/nikeshoes Website.png";
+import IMG2 from "../../assets/RubyCode Blog Project.png";
+import IMG3 from "../../assets/Startup Agency Project.png";
+import IMG4 from "../../assets/Kanban Project.png";
+import IMG5 from "../../assets/gymportfilo.png";
+
 import React from "react";
 
 //Portfolio function
@@ -13,69 +13,62 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Educational Website with React.js",
+      title: " Nike Website with React.js",
       img: IMG1,
       description:
-        "An educational website is a huge interactive platform to present various information for people.",
-      technologies: "Html | CSS | Javascript | React Js",
-      link: "https://educational-website-reactjs.netlify.app/",
-      github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
+        "An  Shoes website is a huge interactive platform to present various  Types of shoes for people.",
+      technologies: " Javascript | React Js | Redux-toolkit | Frame-motation ",
+      link: " https://shopvibemochi.netlify.app/",
+      github:
+        " https://github.com/szakeerfu/ReactPraticeFunctionup/tree/Nikeshoeswebsite",
     },
     {
       id: 2,
-      title: "Covid-19 Tracking App",
+      title: "Kanban - app ",
       img: IMG4,
       description:
-        "The COVID Tracking Project collects and publishes the most complete testing data available for all areas of the world.",
+        "The  Kanban-app is use tohelp visualize work, limit work-in-progress, and maximize efficiency (or flow). It can help both agile and DevOps teams establish order in their daily work. ",
       technologies: "React | Redux",
-      link: "https://covid-19-tracker-weld-nu.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Covid-19-Tracking",
+      link: "https://thisiskanbanprojects.netlify.app/",
+      github: " https://github.com/szakeerfu/kanban-project",
     },
     {
       id: 3,
-      title: "RubyCode Blog Project",
+      title: " Movix-cenimx",
       img: IMG2,
-      description: "This site is a kind of social media platform. You can register and share your posts.",
-      technologies: "React | Redux",
-      link: "https://rubycode-blog-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
+      description:
+        "This site is a kind of  Movies platform. You can  Watch the Trailers and cast also.",
+      technologies: "React | Redux | scss | Loding - skeleton ",
+      link: " https://zakeermoviexcom.netlify.app/",
+      github: " https://github.com/szakeerfu/ReactPraticeFunctionup/tree/movix",
     },
     {
       id: 4,
-      title: "Startup Landing Page",
+      title: " Twitter-Clone",
       img: IMG3,
       description:
-        "A dedicated, standalone web page built for specific campaigns and target audiences.",
-      technologies: "Html | CSS | JavaScript | Next Js",
-      link: "https://alpha-agency-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
+        "This  is Grop project Twitter-clone that we can uplode the twite and like the twite and remove the twite and we can remove the followers also and we can follow and unfollow",
+      technologies: "React | Redux |  ",
+      link: "  https://twitter-clone-sachin.netlify.app/",
+   
     },
     {
       id: 5,
-      title: "Jokes Project with Typescript",
+      title: " Gym-Website",
       img: IMG5,
       description:
-        "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-      technologies: "Html | Styled-components | Typescript",
-      link: "https://jokes-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Joke-App",
-    },
-    {
-      id: 6,
-      title: "Fs Poster Website",
-      img: IMG6,
-      description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "Html | Scss | Javascript",
-      link: "https://fs-poster-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
+        "This  is gymwebsite which Represent there workout stuf and good quality of work ",
+      technologies: "React | Redux |  ",
+      link: "  https://zakeergymwebsitecom.netlify.app/",
+      github: "  https://github.com/szakeerfu/gymwebsiteportfilo",
+   
     },
   ];
 
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (

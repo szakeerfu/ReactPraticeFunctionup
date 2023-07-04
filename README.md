@@ -1,50 +1,58 @@
-# DAVEWORLD's GYM
-![LandingPage](https://user-images.githubusercontent.com/107508295/191951748-b895c770-52de-4f28-9315-d5670387b2ee.png)
+ Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
- 
+Available Scripts
+In the project directory, you can run:
 
- 
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-## Requirement
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-* An Active internet is needed to test the web app
-* A PC or Mobile phone works fine
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-## Here's some cool features of the Project:
-### 1. Used React Router: It enables the navigation among views of various components in a React App keeping the URL in sync
-![image](https://user-images.githubusercontent.com/107508295/191961490-4c3fa595-8358-49f0-b8b7-21963591e22b.png)
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 2. Gallery: Awesome Gallery view  with different images being rendered
-![image](https://user-images.githubusercontent.com/107508295/191962241-ea00b842-2eb6-4fea-af62-7b0bc9345c0c.png)
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-### 3.Testimonial Sections: click the next arrow button and next testimonial get rendered
-![image](https://user-images.githubusercontent.com/107508295/191961194-aa31f37c-d50a-4f54-bd00-6d575d12be07.png)
+See the section about deployment for more information.
 
-### 4. FAQs: Toggle On and Off FAQs
-![FAQ](https://user-images.githubusercontent.com/107508295/191960970-9664a9b9-db19-4f04-8043-56c589f66896.png)
+npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
 
-### 5.NOT FOUND PAGE: Once any invalid URL is passed to the website this page automatically gets rendered
-![NotFound](https://user-images.githubusercontent.com/107508295/191955244-f78f6520-da51-4fad-9bf9-79882f2efbcf.png)
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-#### Other cool features include:
-- Great user experience!
-* User friendly
-- Mobile responsive
-* Awesome CSS transitions and many more
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## How to clone this Repository
-- make sure you have [node](https://nodejs.org/en/download/) installed on your pc, go to your command line and run the command below
-- mkdir gym-portfolio
-- cd gym-portfolio
- 
-- `npm install `
-- `npm start `
+Learn More
+You can learn more in the Create React App documentation.
 
+To learn React, check out the React documentation.
 
-This project is basically about me learning about react routing, reuseable component, props, hooks, react best practices, CSS Variables and many more i hope you also find it interesting, and if you do don't forget to give this repo a star
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-Thanks! if you feel there's anything that can be done to improve the project kindly reach out to me below,
-to see the project [click me](https://eniola-gym-portfolio.vercel.app/)
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+npm run build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
  
